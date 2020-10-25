@@ -1,0 +1,39 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+.backimage {
+    background-image: url(./pics/guitar.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.bg {
+    background-color: #252529;
+}
+
+.backc {
+    background-color: #252529;
+}
+
+.linke {
+    background-color: #b90415;
+}
+
+.back {
+    background-color: #f4f4f4;
+    ;
+}
+
+hr {
+    height: 1px;
+}
+
+.foot {
+    background-color: #252529;
+}
+
+nav p:hover {
+    transition: transform 0.1s ease-out;
+    transform: scale(1.1);
+    background: #444;
+}
